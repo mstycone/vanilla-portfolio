@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" 
+  content="Portfolio de Arnaud AB, étudiant en BTS SIO option SLAM, spécialisé en développement web et applications.">
+  <meta name="keywords" content="Portfolio, BTS SIO, Développement Web, HTML, CSS, JavaScript, Projets">
+  <meta name="author" content="ABOU-BACAR Arnaud">
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="mediaqueries.css">
@@ -13,6 +17,7 @@
     <div>
       <ul class="nav-links">
         <li><a href="#apropos">À propos</a></li>
+        <li><a href="#stages">Stages</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projets</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -29,8 +34,9 @@
       </div>
       <div class="menu-links">
         <li><a href="#apropos" onclick="toggleMenu()">À propos</a></li>
+        <li><a href="#stages" onclick="toggleMenu()">Stages</a></li>
         <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-        <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projet</a></li>
         <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
       </div>
     </div>
@@ -48,20 +54,20 @@
       <p class="section__text__p2">Etudiant en BTS SIO</p>
       <div class="btn-container">
         <button class="btn btn-color-2" 
-        onclick="window.open('./assets/resume-example.pdf')">Télécharger CV</button>
+        onclick="window.open('./assets/CV_Arnaud_Info.pdf')">Télécharger CV</button>
         <button class="btn btn-color-1" 
         onclick="location.href='./#contact'">Contact</button>
       </div>
       <div id="socials-container">
         <img src="./assets/linkedin.png" alt="Mon profile LinkedIn" 
-        class="icon" onclick="location.href='https://linkedin.com'">
+        class="icon" onclick="location.href='https://www.linkedin.com/in/arnaud-abou-bacar-1a8466363/'">
         <img src="./assets/github.png" alt="Mon profile LinkedIn" 
-        class="icon" onclick="location.href='https://github.com'">
+        class="icon" onclick="location.href='https://github.com/mstycone?tab=repositories'">
       </div>
     </div>
   </section>
   <section id="apropos">
-    <p class="section__text__p1">Savoir plus</p>
+    <p class="section__text__p1">En savoir plus</p>
     <h1 class="title">À propos</h1>
     <div class="section-container">
       <div class="section__pic-container">
@@ -76,21 +82,23 @@
             alt="Experience icon"
             class="icon">
             <h3>Experience</h3>
-            <p>2+ years <br/>Frontend developpement</p>
+            <p>Stages en développement web et gestion de projet</p>
           </div>
           <div class="details-container">
             <img src="./assets/education.png" 
             alt="Education icon"
             class="icon">
             <h3>Education</h3>
-            <p>Bachelor degree<br/>Master of Science</p>
+            <p>BTS SIO - Option SLAM<br/>Bac Scientifique (Mathématiques)</p>
           </div>
         </div>
         <div class="text-container">
-          <p>Lorem ipsum dolor sit amet, 
-            consectetur adipisicing elit. Quis, veniam eum
-            numquam odio reprehenderit molestias aspernatur autem
-            eos temporibus, eius amet quidem! At dolores nisi consequatur. Explicabo perspiciatis ea similique.</p>
+          <p>Étudiant en BTS SIO option SLAM, 
+            passionné par le développement web et 
+            les technologies numériques. 
+            Mon parcours m'a permis d'acquérir des compétences en
+            programmation, gestion de bases de données et 
+            conception d’applications.</p>
         </div>
       </div>
     </div>
@@ -100,12 +108,12 @@
     onclick="location.href='./#experience'">
   </section>
   <section id="experience">
-    <p class="section__text__p1">Explore My</p>
-    <h1 class="title">Experience</h1>
+    <p class="section__text__p1">Voici mes</p>
+    <h1 class="title">Compétences</h1>
     <div class="experience-details-container">
       <div class="apropos-container">
         <div class="details-container">
-          <h2 class="experience-sub-title">Frontend developpement</h2>
+          <h2 class="experience-sub-title">Frontend</h2>
           <div class="article-container">
             <article>
               <img src="./assets/checkmark.png" 
@@ -113,7 +121,7 @@
               class="icon">
               <div>
                 <h3>HTML</h3>
-                <p>Experienced</p>
+                <p>Intermédiaire</p>
               </div>
             </article>
             <article>
@@ -122,7 +130,7 @@
               class="icon">
               <div>
                 <h3>CSS</h3>
-                <p>Intermediate </p>
+                <p>Intermédiaire </p>
               </div>
             </article>
             <article>
@@ -139,7 +147,7 @@
               alt="experience icon"
               class="icon">
               <div>
-                <h3>Others</h3>
+                <h3>ReactNative</h3>
                 <p>Basics</p>
               </div>
             </article>
@@ -148,23 +156,14 @@
               alt="experience icon"
               class="icon">
               <div>
-                <h3>HTML</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" 
-              alt="experience icon"
-              class="icon">
-              <div>
-                <h3>HTML</h3>
-                <p>Experienced</p>
+                <h3>React</h3>
+                <p>Basics</p>
               </div>
             </article>
           </div>
         </div>
         <div class="details-container">
-          <h2 class="experience-sub-title">Backend developpement</h2>
+          <h2 class="experience-sub-title">Backend</h2>
           <div class="article-container">
             <article>
               <img src="./assets/checkmark.png" 
@@ -193,6 +192,11 @@
                 <p>Basics</p>
               </div>
             </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Outils</h2>
+          <div class="article-container">            
             <article>
               <img src="./assets/checkmark.png" 
               alt="experience icon"
@@ -207,8 +211,8 @@
               alt="experience icon"
               class="icon">
               <div>
-                <h3>Others</h3>
-                <p>Experienced</p>
+                <h3>Multipass</h3>
+                <p>Basics</p>
               </div>
             </article>
             <article>
@@ -216,8 +220,35 @@
               alt="experience icon"
               class="icon">
               <div>
-                <h3>HTML</h3>
-                <p>Experienced</p>
+                <h3>VMWare Fusion</h3>
+                <p>Basics</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" 
+              alt="experience icon"
+              class="icon">
+              <div>
+                <h3>Figma</h3>
+                <p>Basics</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" 
+              alt="experience icon"
+              class="icon">
+              <div>
+                <h3>VisualStudio Code</h3>
+                <p>Basics</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" 
+              alt="experience icon"
+              class="icon">
+              <div>
+                <h3>UTM</h3>
+                <p>Basics</p>
               </div>
             </article>
           </div>
@@ -229,57 +260,101 @@
     class="icon arrow"
     onclick="location.href='./#projects'">
   </section>
+  <section id="stages">
+    <p class="section__text__p1">Mes</p>
+    <h1 class="title">Stages</h1>
+    <div class="experience-details-container">
+      <div class="apropos-container">
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title">Stage 1 - Création d'un site vitrine</h2>
+          <p>J’ai accompagné une cliente dans l’élaboration de son site vitrine de coach de vie sur LWS, en travaillant sur la maquette, la palette de couleurs et la typographie.</p>
+        </div>
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title">Stage 2 - En cours</h2>
+          <p>Je termine actuellement mon second stage, où j’approfondis mes compétences en développement et gestion de projet.</p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#projects'">
+  </section>  
   <section id="projects">
-    <p class="section__text__p1">Brows My recent</p>
+    <p class="section__text__p1">Voici mes derniers</p>
     <h1 class="title">Projets</h1>
     <div class="experience-details-container">
       <div class="apropos-container">
+
+      <!--Projet 1-->
       <div class="details-container color-container">
-        <div class="article-container">
+        <div class="project-card">
+        <div class="article-container front">
           <img src="./assets/cap-accueil-pt1.png" 
           alt="Project 1"
           class="project-img">
         </div>
-        <h2 class="experience-sub-title project-title">Projet 1</h2>
+        <div class="back">
+          <p>SpendWise est une application de visualisation de budget personnel</p>
+        </div>
+        </div>
+        <h2 class="experience-sub-title project-title">SpendWise</h2>
         <div class="btn-container">
           <button class="btn btn-color-2 project-btn"
-          onclick="location.href='https://github.com'">
+          onclick="location.href='https://github.com/mstycone/project-sw'">
           GitHub</button>
-          <button class="btn btn-color-2 project-btn"
-          onclick="location.href='https://github.com'">
-          Live demo</button>
+          <!--
+            <button class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/mstycone?tab=repositories'">
+            Live demo</button>
+          -->
         </div>
       </div>
+
+      <!--Projet 2-->
       <div class="details-container color-container">
-        <div class="article-container">
-          <img src="./assets/project-1.png" 
+        <div class="project-card">
+        <div class="article-container front">
+          <img src="./assets/project-2.png" 
           alt="Project 1"
           class="project-img">
         </div>
-        <h2 class="experience-sub-title project-title">Projet 2</h2>
+        <div class="back">
+          <p>Il s'agit d'une application mobile de gestion de tâches</p>
+        </div>
+        </div>
+        <h2 class="experience-sub-title project-title">ANote</h2>
         <div class="btn-container">
           <button class="btn btn-color-2 project-btn"
-          onclick="location.href='https://github.com'">
+          onclick="location.href='https://github.com/mstycone/ANote_project/tree/main/ToDo-List'">
           GitHub</button>
-          <button class="btn btn-color-2 project-btn"
-          onclick="location.href='https://github.com'">
-          Live demo</button>
+          <!--
+            <button class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/mstycone?tab=repositories'">
+            Live demo</button>
+          -->
         </div>
       </div>
+
+      <!--Projet 3-->
       <div class="details-container color-container">
-        <div class="article-container">
-          <img src="./assets/project-1.png" 
+        <div class="project-card">
+        <div class="article-container front">
+          <img src="./assets/project-2.png" 
           alt="Project 1"
           class="project-img">
+        </div>
+        <div class="back">
+          <p>Une application web permettant de ...</p>
+        </div>
         </div>
         <h2 class="experience-sub-title project-title">Projet 3</h2>
         <div class="btn-container">
           <button class="btn btn-color-2 project-btn"
-          onclick="location.href='https://github.com'">
+          onclick="location.href='https://github.com/mstycone?tab=repositories'">
           GitHub</button>
-          <button class="btn btn-color-2 project-btn"
-          onclick="location.href='https://github.com'">
-          Live demo</button>
+          <!--
+            <button class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/mstycone?tab=repositories'">
+            Live demo</button>
+          -->
         </div>
       </div></div>
     </div>
@@ -289,20 +364,20 @@
     onclick="location.href='#contact'">
   </section>
   <section id="contact">
-    <p class="section__text__p1">Get in touch</p>
-    <h1 class="title">Contact me</h1>
+    <p class="section__text__p1">N'hésitez pas à</p>
+    <h1 class="title">Me contacter</h1>
     <div class="contact-info-upper-container">
       <div class="contact-info-container">
         <img src="./assets/email.png" 
         alt="Email Icon"
         class="icon contact-icon email-icon">
-        <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+        <p><a href="mailto:aboubacar.arnaud@yahoo.fr">aboubacar.arnaud@yahoo.fr</a></p>
       </div>
       <div class="contact-info-container">
         <img src="./assets/linkedin.png" 
         alt="LinkedIn Icon"
         class="icon contact-icon">
-        <p><a href="https://linkedin.com">LinkedIn</a></p>
+        <p><a href="https://www.linkedin.com/in/arnaud-abou-bacar-1a8466363/">LinkedIn</a></p>
       </div>
     </div>
   </section>
@@ -311,6 +386,7 @@
       <div class="nav-links-container">
         <ul class="nav-links">
           <li><a href="#apropos">À propos</a></li>
+          <li><a href="#stages">Stages</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Project</a></li>
           <li><a href="#contact">Contact</a></li>
