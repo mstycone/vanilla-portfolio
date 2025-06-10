@@ -120,4 +120,8 @@
     .text-container {
         text-align: justify;
     }
+
+    .veille-illustration {
+        max-width: 90%; /* Et éventuellement celle-ci pour les mobiles */
+    }
 }

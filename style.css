@@ -478,6 +478,21 @@ article .icon {
     font-weight: 600;
 }
 
+/* NOUVEAU : Styles pour l'image de la veille techno */
+.veille-img-container {
+    display: flex;
+    justify-content: center; /* Centre l'image horizontalement */
+    margin-bottom: 3rem; /* Espace sous l'image */
+    margin-top: 2rem; /* Espace au-dessus de l'image */
+}
+
+.veille-illustration {
+    max-width: 60%; /* C'est cette ligne que vous allez ajuster */
+    height: auto; /* Maintient le ratio d'aspect */
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 /* Ajustement pour les listes */
 #vtech ul {
     list-style: disc; /* Points pour les listes */
