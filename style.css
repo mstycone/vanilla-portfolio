@@ -468,6 +468,40 @@ article .icon {
     height: 2.5rem;
 }
 
+/* Styles spécifiques à la page de veille techno */
+.veillle-sub-section-title {
+    color: rgb(53, 53, 53); /* Couleur sombre pour le texte */
+    font-size: 1.5rem; /* Taille de police légèrement plus petite que h2 */
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+    text-align: left; /* Aligner à gauche */
+    font-weight: 600;
+}
+
+/* Ajustement pour les listes */
+#vtech ul {
+    list-style: disc; /* Points pour les listes */
+    margin-left: 20px; /* Indentation */
+    margin-bottom: 1rem;
+}
+
+#vtech ul ul { /* Pour les sous-listes */
+    list-style: circle;
+    margin-left: 20px;
+}
+
+#vtech li {
+    margin-bottom: 0.5rem;
+}
+
+/* Ajustement pour le texte dans la section de veille */
+#vtech .details-container p {
+    color: rgb(85, 85, 85); /* Couleur du texte principal */
+    text-align: left; /* Alignement du texte */
+    margin-bottom: 1rem;
+    line-height: 1.6; /* Espacement des lignes pour la lisibilité */
+}
+
 /*Footer*/
 
 footer {
