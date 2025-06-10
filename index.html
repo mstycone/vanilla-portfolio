@@ -17,6 +17,7 @@
     <div>
       <ul class="nav-links">
         <li><a href="#apropos">À propos</a></li>
+        <li><a href="#BTS">BTS SIO</a></li>
         <li><a href="#stages">Stages</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projets</a></li>
@@ -34,6 +35,7 @@
       </div>
       <div class="menu-links">
         <li><a href="#apropos" onclick="toggleMenu()">À propos</a></li>
+        <li><a href="#BTS" onclick="toggleMenu()">À propos</a></li>
         <li><a href="#stages" onclick="toggleMenu()">Stages</a></li>
         <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
         <li><a href="#projects" onclick="toggleMenu()">Projet</a></li>
@@ -107,6 +109,52 @@
     class="icon arrow"
     onclick="location.href='./#experience'">
   </section>
+
+  <!-- Présentation BTS SIO -->
+  
+  <section id="BTS">
+    <p class="section__text__p1">Présentation du </p>
+    <h1 class="title">BTS SIO</h1>
+    <div class="experience-details-container">
+      <div class="text-container">
+          <p>Le BTS SIO (Services Informatiques aux Organisations) est un diplôme Bac+2 qui forme des 
+            professionnels de l'informatique polyvalents, 
+            capables de répondre aux besoins numériques des entreprises. 
+            Ce cursus m'a permis de développer des compétences clés 
+            en analyse, conception, développement et 
+            administration des systèmes d'information.</p><br>
+          <p>L'étudiant a la possibilité de choisir entre <b>deux options</b> : </p>
+        </div>
+      <div class="apropos-container">
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title">SLAM : Solutions Logicielles et Applications Métiers</h2>
+          <p><b>Focus :</b> La conception et le développement d'applications logicielles (web, mobile, desktop)</p><br>
+          <p><b>Compétences clés :</b> Maîtrise des langages de programmation, gestion de bases de données, méthodes de développement (agiles), tests et maintenance.</p><br>
+          <p><b>Mon apprentissage :</b> J'ai pris connaissances des nuances de certains languages populaires ainsi que la notion de gestion de projet en développement</p><br>
+          <p><b>Débouchés :</b> Développeur d'applications Mobiles,
+           Développeur Web,
+           DevOps, Technicien d'études informatiques, Programmeur d'applications,
+           Développeur de logiciel, etc.
+           </p>
+        </div>
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title">SISR : Solutions d'Infrastructure, Systèmes et Réseaux</h2>
+          <p><b>Focus :</b> L'administration, la sécurisation et la maintenance des infrastructures systèmes et réseaux.</p><br>
+          <p><b>Compétences clés :</b> Installation de serveurs, gestion de réseaux, virtualisation, cybersécurité, support technique.</p><br>
+          <p><b>Mon apprentissage :</b> J'ai pris connaissances des différents types de configuration réseau, environnement Linux, la typologie de réseau, etc.</p><br>
+          <p><b>Débouchés :</b> Technicien d’infrastructure, 
+            Technicien réseau et télécoms, 
+            Technicien systèmes et réseaux, 
+            Support systèmes et réseaux, 
+            Administrateur systèmes et réseaux, etc.</p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#projects'">
+  </section> 
+
+  <!--Compétences-->
+
   <section id="experience">
     <p class="section__text__p1">Voici mes</p>
     <h1 class="title">Compétences</h1>
@@ -192,6 +240,15 @@
                 <p>Basics</p>
               </div>
             </article>
+            <article>
+              <img src="./assets/checkmark.png" 
+              alt="experience icon"
+              class="icon">
+              <div>
+                <h3>MySQL</h3>
+                <p>Basics</p>
+              </div>
+            </article>
           </div>
         </div>
         <div class="details-container">
@@ -260,6 +317,9 @@
     class="icon arrow"
     onclick="location.href='./#projects'">
   </section>
+
+  <!--Expériences Professionnelles-->
+
   <section id="stages">
     <p class="section__text__p1">Mes</p>
     <h1 class="title">Stages</h1>
@@ -270,13 +330,18 @@
           <p>J’ai accompagné une cliente dans l’élaboration de son site vitrine de coach de vie sur LWS, en travaillant sur la maquette, la palette de couleurs et la typographie.</p>
         </div>
         <div class="details-container color-container">
-          <h2 class="experience-sub-title">Stage 2 - En cours</h2>
-          <p>Je termine actuellement mon second stage, où j’approfondis mes compétences en développement et gestion de projet.</p>
+          <h2 class="experience-sub-title">Stage 2 - Création d'un site de visualisation de budget personnel</h2>
+          <p>J'ai conçu un site de gestion de budget personnel dans lequel l'utilisateur peut voir ces dernières transactions, 
+            avoir un aperçu de son historique et une visualisation graphique de ces transactions selon la période choisi
+          </p>
         </div>
       </div>
     </div>
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#projects'">
   </section>  
+
+  <!-- Projets -->
+
   <section id="projects">
     <p class="section__text__p1">Voici mes derniers</p>
     <h1 class="title">Projets</h1>
@@ -313,7 +378,7 @@
         <div class="project-card">
         <div class="article-container front">
           <img src="./assets/ANote.png" 
-          alt="Project 1"
+          alt="Project 2"
           class="project-img">
         </div>
         <div class="back">
@@ -338,7 +403,7 @@
         <div class="project-card">
         <div class="article-container front">
           <img src="./assets/site-vitrine.png" 
-          alt="Project 1"
+          alt="Project 3"
           class="project-img">
         </div>
         <div class="back">
@@ -348,15 +413,36 @@
         <h2 class="experience-sub-title project-title">Projet de Stage</h2>
         <div class="btn-container">
           <button class="btn btn-color-2 project-btn"
-          onclick="location.href='https:///www.reussir-sa-vie.com'">
+          onclick="location.href='https://www.reussir-sa-vie.com'">
           Accès Site</button>
+          <button class="btn btn-color-2 project-btn"
+            onclick="location.href='https://drive.google.com/drive/folders/1b8K-dVa27Oh0txFG-jo9t1ZXikdQ_ESb'">
+          Docs</button>
+        </div>
+      </div>
+      <!--Autres-->
+      <div class="details-container color-container">
+        <div class="project-card">
+        <div class="article-container front">
+          <img src="./assets/project-2.png" 
+          alt="Autres"
+          class="project-img">
+        </div>
+        <div class="back">
+          <p>Documentations Projets</p>
+        </div>
+        </div>
+        <h2 class="experience-sub-title project-title">Autres</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn"
+          onclick="location.href='https://drive.google.com/drive/folders/1tpW7C2_ChEmbYcFlm9jz2LnIO4GQPBvA'">
+          Documentations</button>
           <!--
             <button class="btn btn-color-2 project-btn"
             onclick="location.href='https://github.com/mstycone?tab=repositories'">
             Live demo</button>
           -->
         </div>
-      </div></div>
     </div>
     <img src="./assets/arrow.png" 
     alt="Arrow icon"
